@@ -1,0 +1,42 @@
+table{
+background-color:red;
+background-repeat:repeat;
+background-attachment:fixed;
+opacity:0.9;
+
+}
+body{ background-image:url("../img/ac.gif");}
+.me{border:5px solid white;}
+
+
+
+
+
+
+
+
+h1{
+font-family: Calibri; 
+  font-size: 25px;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:Blue;
+  text-align: center; 
+  text-decoration: underline;
+}
+
+
+table{
+font-family:Calibri;
+color:white;
+font-size:15px;
+font-style:normal;
+font-weight:bold;
+background-color:#0775AE;
+border-collapse:collapse;
+border:4px dashed navy;
+}
+
+table.inner{border:0px}
+
+
