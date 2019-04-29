@@ -1,0 +1,51 @@
+.box
+{
+border:2px solid;
+border-radius:10px  ;
+max-width:48% ;
+background-color:#FDD8E6;
+position:relative;
+
+}
+
+img
+{
+border-radius:10px;
+width:153px;
+padding:20px;
+margin-top:0px;
+margin-left:0px;
+}
+
+
+
+p,h1
+{
+position:relative;
+bottom: 170px;
+left:180px;
+color:black;
+}
+
+.txt
+{
+position:absolute;
+border-radius:6px;
+text-align:center;
+border:2px solid;
+background-color:#e3e3e3;
+font-size:10px;
+width:100px;
+height:50px;
+right:10px;
+top:50px;
+left:45%;
+}
+
+
+
+
+
+
+
+
