@@ -1,0 +1,17 @@
+html
+{
+  background-image: url("../img/df.jpg");
+}
+
+.flower
+{
+  text-align:center;
+  border:hidden;
+  color:black;
+  width:60%;
+  margin:0 auto;
+  background-color:rgba(248, 246, 199, 0.4);
+  padding-bottom:20px;
+  padding-top:20px;
+}
+h1{color:black;}
