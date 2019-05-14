@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> stylinginjavascript </title>
+
+
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymus">
+     <style type="text/css">
+	.jumbotron{margin:30px;}
+     </style>
+</head>
+<body>
+	<div class="jumbotron text-center">
+	<h1> Hello JavaScript! </h1>
+	<button type="button" class="btn-primary btn" onclick="txtChange()">Change Text</button>
+	</div>
+<script type="text/javascript">
+	const header = document.querySelector('h1');
+	
+	function txtChange()
+	 {
+		header.textContent = 'How are you?';
+	 }
+</script>
+</body>
+</html>
