@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Types and Variables</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+ <style type="text/css">
+    body
+  {   
+    padding: 30px;
+    background-color:#00dfff0f;
+    text-align:center;
+    margin:50px;
+    color:black;
+  }
+ </style>
+ </head>
+ <body>
+
+	<script type="text/javascript">
+		
+		// strings
+	    'My name is Arooj';
+	    'I am a Web Developer';
+	    
+	var linebreak="<br>";
+
+	console.log("My name is Arooj");
+	document.write("My name is Arooj");
+	document.write(linebreak);
+
+	console.log("I am a Web Developer");
+	document.write("I am a Web Developer");
+	document.write(linebreak);
+
+
+
+	    // numbers
+	    50;
+	    600;
+	    3.14;
+
+	var linebreak="<br>";
+
+	console.log("50");
+	document.write(linebreak);
+	document.write("50");
+
+	console.log("600");
+	document.write(linebreak);
+	document.write("600");
+
+	console.log("3.14");
+	document.write(linebreak);
+	document.write("3.14");
+
+	document.write(linebreak);
+
+
+	    // booleans (truthy / falsy)
+	    true;
+	    false;
+//true
+	const str = 'string';
+    	console.log(Boolean(str));
+//false
+
+	// const str = '';
+    	//console.log(Boolean(str));
+
+//boolean conditions
+      console.log(Boolean(0));
+//false
+      console.log(Boolean(false));
+//false 
+      console.log(Boolean(NaN));
+//false
+      console.log(Boolean(-0));
+//false
+      console.log(Boolean(1>2));
+//false
+      console.log(Boolean(1<2));
+//true
+      console.log(Boolean(1));
+//true
+      console.log(Boolean(true));
+//true
+      console.log(Boolean(4<10));
+//true
+
+
+
+    
+// undefined
+	    var a;
+	    console.log(a);
+
+	    let tech;
+	    console.log(tech); 
+   
+//null
+	    let std = null;
+	    console.log(std);
+	    
+
+//object
+     const user = {
+	          name: 'AROOJ',
+	          username: 'AROOJRASHID', 
+	          email: 'aroojrashid@gmail.com', 
+	          dateofbirth:'25-sep-1999',
+	          mobileno:'03401481947',
+	          address:'House no f6 Muhammadi Street Zubaida Park Multan Road Lahore',
+	          course:'Web Design and Web Development'
+	          };
+
+	    console.log(user.name);
+            document.write(linebreak);
+	    document.write('AROOJ');
+
+	    console.log(user.username);
+            document.write(linebreak);
+	    document.write('AROOJRASHID');
+           
+	    console.log(user.email);
+            document.write(linebreak);
+	    document.write('aroojrashid@gmail.com');
+           
+	    console.log(user.dateofbirth);
+            document.write(linebreak);
+	    document.write('25-sep-1999');
+            
+	    console.log(user.mobileno);
+            document.write(linebreak);
+	    document.write('03401481947');
+
+	    console.log(user.address);
+            document.write(linebreak);
+	    document.write("House no f6 Muhammadi Street Zubaida Park Multan Road Lahore");
+           
+	    console.log(user.course);
+            document.write(linebreak);
+	    document.write("Web Design and Web Development");
+	
+	    document.write(linebreak);
+
+//arrays in strings
+
+	const students=['arooj','awais','abdul rehman','abdullah','rimsha']
+	
+	console.log(students[0]);
+        document.write(linebreak);
+	document.write('Arooj');
+
+	console.log(students[1]);
+        document.write(linebreak);
+	document.write('Awais');
+
+	console.log(students[2]);
+        document.write(linebreak);
+	document.write('Abdul rehman');
+
+	console.log(students[3]);
+        document.write(linebreak);
+	document.write('Abdullah');
+
+	console.log(students[4]);
+        document.write(linebreak);
+	document.write('Rimsha');
+
+	console.log(students[5]);
+
+	    document.write(linebreak);
+
+//Arrays in integers
+
+	const subjects=['{title:"english"}',
+			'{title:"urdu"}',
+			'{title:"maths"}',
+			'{title:"physics"}',
+			'{title:"chemistry"}'
+		       ];
+
+	console.log(subjects[0]);
+        document.write(linebreak);
+	document.write('english');
+
+	console.log(subjects[1]);
+        document.write(linebreak);
+	document.write('urdu');
+
+	console.log(subjects[2]);
+        document.write(linebreak);
+	document.write('maths');
+
+	console.log(subjects[3]);
+        document.write(linebreak);
+	document.write('physics');
+
+	console.log(subjects[4]);
+        document.write(linebreak);
+	document.write('chemistry');
+
+	console.log(subjects[5]);
+
+
+
+
+//Arrays in integers
+
+	const subject=['0','maths','1','urdu','2','science','3','biology','4','physics'];
+
+		console.log(subject[1]);
+
+	//console.log(subject[0]);
+        document.write(linebreak);
+	document.write('arooj');
+
+	console.log(subject[1]);
+        document.write(linebreak);
+	document.write('urdu');
+
+	console.log(subject[2]);
+        document.write(linebreak);
+	document.write('maths');
+
+	console.log(subject[3]);
+        document.write(linebreak);
+	document.write('physics');
+
+	console.log(subject[4]);
+        document.write(linebreak);
+	document.write('chemistry');
+
+	console.log(subject[5]);
+</script>
+</body>
+</html> 
