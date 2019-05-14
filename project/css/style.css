@@ -1,0 +1,209 @@
+    
+/* Define custom fonts */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Main elements of the page */
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+body
+     {
+	background-image: url("../img/d.png");
+     }
+
+.wrapper
+	 {
+		width:80%;
+		height:600px;
+		margin:0 auto;
+	 }
+
+.header h1
+	 {
+		margin-left:70px;
+		margin-bottom:0%;
+	 }
+
+.header p{
+	        margin-top: auto;
+	        margin-left:69px;
+	        margin-bottom:0%;
+	 }
+
+     ul  {
+	 	list-style-type: none;
+		margin: 0;
+	 	padding: 0;
+	 	background-color: #f6f6f8;
+         	padding-left: 354px;
+	 }
+
+     li  {     
+	       float: left;
+	  }
+	
+    li a {
+	        display: block;
+	        color:black;
+	        text-align: center;
+	        padding: 15px;
+	        text-decoration: none;
+	        font-size:17px;
+	}
+	
+li a:hover 
+	{
+	        color: black;
+	        border-bottom: 3px solid  #c60021;;
+	}
+
+.san    {
+                height:200px; 
+                width:700px; 
+                padding-left:68px;
+        }
+
+.opa   {
+                height:7%;
+                width:88.3%;
+                background-color:rgba(0,0,0,0.5);
+                position:relative;
+                bottom:53px;
+                left:68px;
+                color:white;
+                border-radius:10px;
+       }
+
+.log   {
+               width:90%;
+               position:relative;
+               left:70px;
+               bottom:50px;
+               margin:0;
+               padding:0;
+        }
+
+.aside  {
+               height:406px;
+               width:33%;
+               flex: 1;
+               padding: 14px;
+               position:relative;
+               bottom:517px;
+               left:520px;
+         }
+
+.center  {
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+               width: 60%;
+         }
+
+.col-container
+	 {
+               display: flex;
+               width: 31%;
+               height:26%;
+               position:relative;
+               top:20px;
+	 }
+
+.col     {
+               flex: 1;
+               padding: 16px;
+
+         }
+
+.btn 
+ 	 {
+		display: inline-block;
+		font-size: 16px;
+		margin: 5px;
+		font-family: lucida bright;
+		position: absolute;
+		left: 757px;
+		top: 347px;
+		width: 105px;
+		background-color: #cc021d; 
+		color: white; 
+		border: 2px solid #cc021d;
+		border: none;
+		border-radius: 5px;
+		padding: 5px;
+		text-align: center;
+		text-decoration: none;
+	 }
+
+.btn:hover 
+	 {
+	        background-color: #cc021d;
+	        color: white;
+	 }
+
+.tweet
+	 {
+		width: 250px;
+		height: 150px;
+		float: left;
+		position: absolute;
+		top:400px;
+		font-family: lucida bright;
+	 }
+
+.picture
+	 {
+		left: 182px;
+		top: 400px;
+		font-family: lucida bright;
+		width: 300px;
+		height: 150px;
+		position: absolute;
+	 }
+
+.friend
+	 {      left: 506px;
+		top: 400px;
+		font-family: lucida bright;
+		width: 118px;
+		height: 155px;
+		position: absolute;
+	 }
+
+.maza    {
+                position: relative;
+                bottom: 122px;
+                left: 163px;
+                width: 80%;
+         }
+
+.li      {
+                image:url("..img/external_link.png");	
+         }
