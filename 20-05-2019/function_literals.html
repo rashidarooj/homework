@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>function literals</title>
+	<script type="text/javascript">
+		var func=function(x,y)
+		{
+			return x*y
+		};	
+		function secondFunction()
+		{
+			var result;
+			result=func(100,600);
+			document.write(result);
+		}
+	</script>
+</head>
+<body>
+			<p>click the following button to call the function</p>
+	<form>
+		<input type="button" onclick="secondFunction()" value="Call Function">
+	</form>
+</body>
+</html>
