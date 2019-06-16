@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap collapsible Navbar</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+
+  body
+    {
+      background-image: url(./img/201.png);
+
+    }
+
+  h1
+    {
+     
+       text-align: center;
+    }
+      
+  h2
+    {
+      font-family: great vibes;
+     
+    }
+
+  p
+    {
+      font-family: Open Sans;
+    }
+
+    
+  </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">W3school</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">PHP</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up
+        </a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login
+        </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h2>Collapsible Navbar</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eum eveniet quidem atque animi culpa itaque maiores, consequuntur aspernatur! Rerum, perspiciatis, mollitia. Optio ipsa architecto, beatae sit nemo quisquam eveniet officia quas deleniti impedit perspiciatis commodi dolore, laboriosam. Assumenda amet, ad quia officia ea, quae doloremque magnam corporis sint cupiditate.</p>
+        
+        <h1>Resize the window to see the Collapsible Navbar</h1>
+</div>
+
+</body>
+</html>
